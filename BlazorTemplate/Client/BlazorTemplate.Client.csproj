@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<Protobuf Include="..\Shared\Contracts\greeter.proto" GrpcServices="Client" Link="Contracts\greeter.proto" Access="Internal" />
+	</ItemGroup>
+</Project>

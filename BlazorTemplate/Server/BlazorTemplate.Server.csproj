@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <UserSecretsId>BlazorTemplate.Server-5315469D-DC12-4356-B7F4-B1EE32895942</UserSecretsId>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<Protobuf Include="..\Shared\Contracts\greeter.proto" Link="Contracts\greeter.proto" GrpcServices="Server" />
+	</ItemGroup>
+</Project>
